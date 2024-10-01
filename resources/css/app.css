@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+
+
+@layer base {
+    
+    .disabledMenuButton{
+        opacity:0.4;
+
+    }
+    button.disabledMenuButton:hover {
+        background-color: green  ;
+    }
+
+}
+ 
